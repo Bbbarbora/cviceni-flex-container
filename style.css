@@ -1,5 +1,21 @@
 /*Tady piš svůj kód*/
 
+.sidebar-top {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
 /*-------------*/
 *,
 :before,
@@ -16,12 +32,15 @@ body {
 
 .layout {
   min-height: 100vh;
+  display: flex;
 }
 
 .sidebar {
   background-color: #f2f3ff;
   padding: 0.5rem;
   box-shadow: 1px 0px 8px #c2d1dd;
+
+
 }
 
 a {
